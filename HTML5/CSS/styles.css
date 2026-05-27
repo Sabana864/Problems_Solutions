@@ -1,0 +1,25 @@
+h1{
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(217, 189, 198);
+}
+
+p{
+  color: rgb(47, 126, 126);
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.cta-button{
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: rgb(0, 157, 255);
+  font-style: italic;
+  color: rgb(124, 33, 136);
+  font-weight: bold;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
+}
+
