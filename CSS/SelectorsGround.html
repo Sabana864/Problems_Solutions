@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectors PlayGround</title>
+  <style>
+    *
+    {
+      margin: 0;
+      padding: 0;
+    }
+
+    h2{
+      color: blue;
+      text-align: center;
+      padding: 10px;
+    }
+
+    #mainHeader
+    {
+      background-color: palevioletred;
+      color: white;
+      padding: 20px;
+    }
+    .eventCard
+    {
+       border: 2px solid black;
+       padding: 20px;
+       margin: 20px;
+       display: flex;
+       justify-content: flex;
+       gap: 150px;
+    }
+
+    h3,p{
+      color: purple;
+    }
+
+    #but
+    {
+      background-color: blue;
+      padding: 10px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .spa{
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="mainHeader">
+    Welcome to My Website
+  </div>
+
+  <h2>Upcoming Events</h2>
+  <div class="eventCard">
+    <h3 class="spa">Music Show</h3>
+    <p class="spa">Sunday Evening</p>
+    <button id="but">Show More</button>
+  </div>
+
+  <div class="eventCard">
+    <h3 class="spa">Dance Show</h3>
+    <p class="spa">Saturday Evening</p>
+    <button type="button" id="but">Show More</button>
+  </div>
+</body>
+</html>
